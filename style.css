@@ -1,9 +1,10 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     outline: none;
-}
+
+} */
 
 
 
@@ -11,13 +12,13 @@ header{
 width: 100%;
 height: 60px;
 background-color: rgb(116, 115, 129);
+margin-top: 0;
 
 }
-
+/* 
 #logo{
     float: center;
-    padding: 9px 0 9px 50px;
-}
+} */
 #logo h1{
 
 color: aliceblue;
@@ -30,7 +31,7 @@ list-style: none;
     align-items: center;
     justify-content: center;
     margin-right: 50px;
- margin-top: -130px;
+ margin-top: -35px;
  color: rgb(201, 186, 216);
 
 }
@@ -59,38 +60,53 @@ nav ul li a:hover{
     }
    body{
     background: rgb(167, 165, 182);
+    height: 250vh;
+    width: 100%;
+    
    }
    .wrap{
-width: 1000px;
-margin: auto;
-margin-top: 100px;
-   }
+    width: 100%;
+   
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    
+       }
    .card{
 
     box-shadow: 0 4ox 8px crimson;
-    transition: 0.4s;
-    width: 300px;
-    background: #fff;
+    transition: 1s;
+    width: 250px;
+    background: rgb(197, 165, 165);
     text-align: center;
     font-size: 16px;
-    font-family: sans-serif;
-    float: left;
-    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 2px 16px;
+    flex-wrap: wrap;
+   
    }
+   
    .card:hover{
 
-    box-shadow: 0 8px 16px 0 royalblue
+    box-shadow: 0 8px 16px 0 royalblue;
+    transform: rotateY(180deg);
+   
    }
-   .container{
-    padding: 2px 16px;
-   }
+  
    .footer{
    
     padding: 2rem;
     color: rgb(20, 2, 2);
     margin-bottom: 0;
     background-color: rgb(94, 128, 128);
+    width: 100%;
+
    }
+   
    
 /* drama */
 h5{
@@ -104,7 +120,7 @@ h5{
     
         font-size: 30px;
         text-align: center;
-        margin-top: -100px;
+    
       
     }
     /* comedy */
